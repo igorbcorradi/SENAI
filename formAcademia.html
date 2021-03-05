@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Academia</title>
+</head>
+<body>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Cadastro Geral</legend>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <br>
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <input type="text" name="nome" id="nome" size="30">
+                    <br><br>
+
+                    <label for="profissao">Profissão:</label>
+                    <br>
+                    <select name="profissao" id="profissao">
+                    
+                        <option value="seleciona" selected> --Sua Profissão--</option>
+                        <option value="programador">Programador</option>
+                        <option value="arquivista">Arquivista</option>
+                        <option value="engenheiro">Engenheiro</option>
+                        <option value="tradutor">Tradutor</option>
+                    </select>
+                    </fieldset>
+                    </fieldset>
+            <fieldset>
+            <legend>Localização</legend>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" id="email" size="35">
+            <br><br>
+
+            <label for="rua">Endereço</label>
+            <br>
+            <input type="text" name="rua" id="rua" size="70">
+            </fieldset>
+            <fieldset>
+                <legend>Faixa etária</legend>
+
+                <input type="radio" name="enquete" id="20">
+                <label for="20">Até 20 anos de idade</label>
+                
+                <input type="radio" name="enquete" id="+20">
+                <label for="+20">Mais 20 anos de idade</label>
+                
+                <input type="radio" name="enquete" id="+30">
+                <label for="+30">Mais 30 anos de idade</label>
+                
+                <input type="radio" name="enquete" id="+40">
+                <label for="+40">Mais 40 anos de idade</label>
+                
+                <input type="radio" name="enquete" id="50">
+                <label for="50">Até 50 anos de idade</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Esportes</legend>
+                
+                <input type="checkbox" name="futebol" id="futebol">
+                <label for="futebol">Futebol</label>
+
+                <input type="checkbox" name="musculacao" id="musculacao">
+                <label for="musculacao">Musculação</label>
+
+                <input type="checkbox" name="volei" id="volei">
+                <label for="volei">Vôlei</label>
+            </fieldset>
+            <fieldset>
+                <legend>Comentários</legend>
+
+                <label for="comentario">Comentário:</label>
+                <br>
+                <textarea name="comentário" id="mensagem" cols="80" rows="10"></textarea>
+            </fieldset>
+            <br><br>
+
+            <input type="submit" id="enviar" name="enviar" value="Enviar">
+            <input type="reset" id="limpar" name="limpar" value="Limpar">
+    </form>
+    
+</body>
+</html>
