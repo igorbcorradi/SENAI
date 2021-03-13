@@ -1,0 +1,67 @@
+body{
+    width: 95%;
+    margin: auto;
+    background-position: center;
+    background-image:url(../img/bg.jpg);
+    
+
+    font-family: 'Lato';
+    line-height: 1.5;
+    color: aliceblue; 
+
+}
+
+
+.logo{
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ul{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    text-align: center;
+}
+
+li, a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding: 5px 40px;
+    font-size: 20px;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.textoimg{
+    display: flex;
+
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 20px;
+}
+
+p{
+    margin: 10px;
+}
+
+.menuprod{
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 5px 40px;
+    font-size: 20px;
+}
+
